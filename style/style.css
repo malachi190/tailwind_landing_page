@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+    @apply shadow-md py-3 px-6 rounded-md transition duration-300;
+}
+
+.btn-purple{
+    @apply bg-bookly-purple text-white;
+}
+
+.btn-white{
+    @apply bg-bookly-white;
+}
